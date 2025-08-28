@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #705e88;
+}
+
+.foto-personal {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 70px; /* Espacio para el header fijo */
+}
+
+/* Header y menú horizontal */
+.header {
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+}
+
+.nav-menu a:hover {
+    color: #3498db;
+}
+
+/* Estilos para la sección sobre mí */
+#sobre-mi {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#sobre-mi img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}

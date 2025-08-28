@@ -1,36 +1,40 @@
 <!doctype html> <!-- Declaramos HTML5 -->
-<html lang="es">
+<html lang="es"> <!-- Idioma español -->
 <head>
   <meta charset="utf-8"> <!-- Soporta acentos -->
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive -->
   <title>Portfolio - Jorge Enrique Lloret Naumchik</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlazamos CSS -->
 </head>
 <body>
   <!-- HEADER: barra de navegación -->
-   <h1>Jorge Enrique Lloret Naumchik</h1>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+   <header class="header">
+        <nav class="navbar">
+            <div class="logo">Jorge Enrique Lloret Naumchik</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
 
   <main>
     <!-- Sección inicio -->
     <section id="inicio">
       <h1>Inicio</h1>
-      <p>Lisenciado en ciencias de la computación</p>
+      <p><strong>Licenciado en ciencias de la computación</strong></p>
     </section>
 
     <!-- Sobre mí -->
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
-      <p>Estudiante de la carrera Licenciatura en ciencias de la computación"</p>
-      <img src="1.jpg" alt="Foto personal">
+      <p>Estudiante de la carrera <i>Licenciatura en ciencias de la computación</i></p>
+      <hr>
+      <p><b>programador<sup>2</sup></b> full stack</p>
+      <img src="images/1.jpg" alt="Foto personal" class="foto-personal">
     </section>
 
     <!-- Proyectos -->
@@ -72,7 +76,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Tu Nombre</p>
+    <p>© 2025 Jorge Enrique Lloret Naumchik</p>
   </footer>
 </body>
 </html>
