@@ -2,19 +2,21 @@
 <html lang="es"> <!-- Idioma español -->
 <head>
   <meta charset="utf-8"> <!-- Soporta acentos -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsivo -->
   <title>Portfolio - Jorge Enrique Lloret Naumchik</title>
   <link rel="stylesheet" href="styles.css"> <!-- Enlazamos CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlazamos Font Awesome para los iconos que uso en contacto-->
 </head>
 <body>
   <!-- HEADER: barra de navegación -->
    <header class="header">
         <nav class="navbar">
-            <div class="logo">Jorge Enrique Lloret Naumchik</div>
+            <div class="logo">JE</div>
             <ul class="nav-menu">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia-laboral">Experiencia Laboral</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -34,6 +36,15 @@
       <p>Estudiante de la carrera <i>Licenciatura en ciencias de la computación</i></p>
       <hr>
       <p><b>programador<sup>2</sup></b> full stack</p>
+        <div class="carousel-conteiner">
+          <div class="image-slider">
+            <img src="images/1.jpg" alt="Foto personal" class="foto-personal">
+            <img src="images/trian1.jpeg" alt="imagen de relleno" class="trian1">
+            <img src="images/tri2.jpeg" alt="imagen de relleno 2" class="tri2">
+
+          </div>
+
+        </div>
       <img src="images/1.jpg" alt="Foto personal" class="foto-personal">
     </section>
 
@@ -41,15 +52,43 @@
     <section id="proyectos">
       <h2>Proyectos</h2>
       <article>
-        <h3>Proyecto 1</h3>
+        <h3>Robótica educativa</h3>
+        <p>Descripción.</p>
+        <h3>Alfabetización digital</h3>
+        <p>Descripción.</p>
+        <h3>Programación y robótica</h3>
+        <p>Descripción.</p>
+        <h3>Nomade Camp</h3>
         <p>Descripción.</p>
       </article>
+    </section>
+
+    <section id="experiencia-laboral">
+      <h2>Experiencia Laboral</h2>
+      <h3>Instructor</h3>
+      <p><strong>Licenciado en ciencias de la computación</strong></p>
+      <h3>Soporte técnico</h3>
+      <p><strong>Licenciado en ciencias de la computación</strong></p>
+      <h3>Desarrollador web</h3>
+      <p><strong>Licenciado en ciencias de la computación</strong></p>
+      <h3>Product Owner</h3>
+      <p><strong>Licenciado en ciencias de la computación</strong></p>
     </section>
 
     <!-- Contacto -->
     <section id="contacto">
       <h2>Contacto</h2>
-      <form>
+      <ul class="contactos-icons">
+        <li><i class="fa-brands fa-google"></i>correo</li>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-github"></i></li>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-discord"></i></li>
+        
+      </ul>
+      <!-- <form>
         <label for="nombre">Correo: </label>
         <label type="email">jota@gmail.com</label>
         
@@ -57,13 +96,13 @@
         <label for="mensaje">Mensaje</label>
         <textarea id="mensaje" required></textarea>
         <button type="submit">Enviar</button>
-      </form>
+      </form> -->
     </section>
 
     <!-- Referencias -->
     <section id="referencias">
       <h2>Referencias</h2>
-      <blockquote>“Excelente trabajo”</blockquote>
+      <blockquote>“...”</blockquote>
     </section>
 
      <!-- Información adicional -->
