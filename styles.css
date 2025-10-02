@@ -1,40 +1,9 @@
-<<<<<<< HEAD
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-    margin: 10px;
-    padding: 0;
-    background-color: #292929;
-}
-
- 
-.foto-personal {
-=======
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 10px;
-    padding: 50;
-    background-color: #afc1f3;
-} */
-
-/* .foto-personal {
->>>>>>> d3c8cb3924dbe2cda6652572df801df5e53ef9fd
-    width: 200px;
-    height: auto;
-    max-width: 100%;
-} */
-/* Reset básico */
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 70px; /* Espacio para el header fijo */
-    margin: 10px;
-    background-color: #afc1f3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
 }
 
 /* Header y menú horizontal */
@@ -81,120 +50,56 @@ body {
     color: #3498db;
 }
 
-/* Estilos para la sección inicio */
-#inicio {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+
+.seccion {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #e6e5e5;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Estilos para la sección sobre mí */
-#sobre-mi {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#sobre-mi {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#sobre-mi {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-#sobre-mi {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+.seccion p {
+  line-height: 1.6;
 }
 
-/* Estilos para la sección proyectos */
-#proyectos {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Estilos para la sección Experiencia */
-#experiencia-laboral {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Estilos para la sección contacto */
-#contacto {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+.seccion h2 {
     text-align: center;
+    margin-bottom: 20px;
+    color: #0077b6;
+}
+
+#sobre-mi {
+  display: flex; 
+  align-items: center;
+  gap: 30px;
+  border-radius: 15px;
 }
 
 #sobre-mi img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 3px solid #023c5c;
 }
 
-<<<<<<< HEAD
-footer {
+#sobre-mi-texto {
+  flex: 1;
+}
+
+
+
+
+/* Responsivo (para celulares) */
+/* @media (max-width: 768px) {
+  .sobre-mi {
+    flex-direction: column;
     text-align: center;
-    
-=======
-.carousel-container {
-  width: 100%;
-  overflow: hidden; /* Oculta las imágenes que no están visibles */
-}
+  }
 
-.image-slider {
-  display: flex; /* Coloca las imágenes una al lado de la otra */
-  width: 300%; /* El ancho total de las 3 imágenes */
-  animation: slider-movement 15s infinite; /* Animación de 15 segundos que se repite */
-}
-
-.image-slider img {
-  width: 33.33%; /* Cada imagen ocupa un tercio del contenedor */
-  height: auto;
-}
-
-@keyframes slider-movement {
-  0% { transform: translateX(0%); } /* Empieza en la primera imagen */
-  33% { transform: translateX(-33.33%); } /* Mueve a la segunda imagen */
-  66% { transform: translateX(-66.66%); } /* Mueve a la tercera imagen */
-  100% { transform: translateX(0%); } /* Regresa al inicio */
-}
-
-.contactos-icons {
-    list-style: none; /*elimina los puntos de la lista*/
-    padding:0;
-    display: flex;
-    justify-content: space-around; /*distribuye los items uniformemente*/
-
-}
-
-/* .contactos-icons {
-  list-style: none; /* Quita los puntos de la lista */
-  /* padding: 0;
+  .sobre-mi img {
+    margin-bottom: 20px;
+  }
 } */
-
-.contactos-icons li {
-  margin-bottom: 20px; /* Espacio entre los ítems */
-}
-
-.contactos-icons li i {
-  margin-right: 8px; /* Espacio entre el icono y el texto */
-  color: #122131; /* Color del icono */
-  font-size: 2em; /* Tamaño del icono */
-}
-
-footer {
-    display: flex;
-    justify-content: center; /*centra el contenido horizontalmente*/
-    align-items: center; /*centra el contenido verticalmente*/
-    height: 100px;/*altura para el footer*/
-    background-color: #2f6091;
->>>>>>> d3c8cb3924dbe2cda6652572df801df5e53ef9fd
-}
