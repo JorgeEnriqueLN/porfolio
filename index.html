@@ -6,6 +6,10 @@
   <title>Portfolio - Jorge Enrique Lloret Naumchik</title>
   <link rel="stylesheet" href="styles.css"> <!-- Enlazamos CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Enlazamos Font Awesome para los iconos que uso en contacto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <!-- HEADER: barra de navegación -->
@@ -26,87 +30,171 @@
   <main>
     <!-- Sección inicio -->
     <section id="inicio" class="seccion">
-      <h2>Inicio</h2>
-      <p><strong>Licenciado en ciencias de la computación</strong></p>
+      <img src="images/yo1.jpg" alt="mi foto de inicio" class="foto-inicio">
+      
+      <div class="inicio-texto">
+        <h2>Inicio</h2>
+        <p> <strong class="mi-nombre">Hola, soy Jorge Lloret</strong>
+          <br>
+          Desarrollador Full Stack.
+        <br>
+        Mi misión es crear experiencias digitales que hagan la vida más fácil.</p>
+      </div>
+      
     </section>
 
     <!-- Sobre mí -->
     <section id="sobre-mi" class="seccion">
       <img src="images/yo.jpg" alt="Foto de mi" class="foto-personal">
+      
       <div class="sobre-mi-texto"> 
         <h2>Sobre mí</h2>
-        <p>Soy estudiante de la carrera <i>Licenciatura en ciencias de la computación</i>
-          en la Universidad Nacional de San Juan</p>
-        <p>Me caracterizo
-          por mi predisposición para colaborar en la resolución de problemas. Con una
+        <p>Soy estudiante de <strong><i>Licenciatura en ciencias de la computación</i></strong>
+          en la Universidad Nacional de San Juan.
+          <br>
+          Me caracterizo por mi predisposición para colaborar en la resolución de problemas. Con una 
           sólida capacidad para trabajar en equipo y colaborar efectivamente en
           entornos ágiles. Mi pasión por la tecnología y el aprendizaje continuo
           me permite adaptarme rápidamente a nuevas herramientas y lenguajes de
           programación. Comprometido con la mejora constante, siempre busco
-          innovar y debatir ideas para lograrsoluciones eficientes y de alta calidad.</p>
+          innovar y debatir ideas para lograrsoluciones eficientes y de alta calidad.
+        </p>
       </div>
-      
-      <!-- <p><b>Programador</b> full stack</p>
-        <div class="carousel-conteiner">
-          <div class="image-slider">
-            <img src="images/1.jpg" alt="Foto personal" class="foto-personal">
-      
-          </div>
-
-        </div> -->
-      
     </section>
 
     <!-- Proyectos -->
     <section id="proyectos" class="seccion">
       <h2>Proyectos</h2>
-      <article>
-        <h3>Robótica educativa</h3>
-        <p>Formé parte de un equipo dedicado al diseño y ejecución de proyectos 
-sociales para llevar talleres de difusión tecnológica. Mi participación fue en el 
-diseño y como instructor, enseñando conceptos de robótica y programación, 
-fomentando el interés por la tecnología y las ciencias.</p>
-        <h3>Creador de contenido</h3>
-        <p>Participé del proyecto “Mundo Maker” creando contenido de electrónica y 
-programación. </p>
-        <h3>Programación y robótica</h3>
-        <p>Soy integrante de un equipo de divulgación tecnológica. El proyecto es destinado a chicos de 
-zonas alejadas. </p>
-        <h3>Nomade Camp</h3>
-        <p>Nomade Camp es una experiencia educativa que tiene como objeto despertar la curiosidad,
-          la creatividad y el hacer en conjunto, acercando oportunidades educativas de calidad a contextos diversos
-        </p>
+
+      <article class="contenedor-proyectos">
+<!--===========================================================-->     
+<!--proyecto robotica educativa-->
+<!--===========================================================--> 
+        <div class="proyectos-todos">
+          <h3 class="toggle-titulo">Robótica educativa</h3>
+
+          <div class="proyecto-detalle"> 
+            <div class="contenido-flex">
+              
+  <!--Imagenes robotica educativa-->
+              <div class="slider-container">
+                <img src="images/robEducativa/robotEdu1.jpg" alt="Robótica 1" class="slider-img active"> 
+                <img src="images/robEducativa/robotEdu2.jpg" alt="Robótica 2" class="slider-img">
+                <img src="images/robEducativa/robotEdu3.jpg" alt="Robótica 3" class="slider-img">
+              </div>
+              <p>Formé parte de un equipo dedicado al diseño y ejecución de proyectos 
+              sociales para llevar talleres de difusión tecnológica. Mi participación fue en el 
+              diseño y como instructor, enseñando conceptos de robótica y programación, 
+              fomentando el interés por la tecnología y las ciencias.</p>
+              
+            </div>
+            <a href="#" class="ver-mas">Ver más</a>   
+          </div> 
+        </div>
+<!--===========================================================-->     
+<!--proyecto creacor de contenido-->
+<!--===========================================================--> 
+        <div class="proyectos-todos">
+          <h3 class="toggle-titulo">Creador de contenido</h3>
+          
+          <div class="proyecto-detalle">
+            <div class="contenido-flex">
+            
+    <!--Imagenes robotica contenido-->
+              <div class="slider-container">
+                <img src="images/conten/cont1.png" alt="cont 1" class="slider-img active"> 
+                <img src="images/conten/cont2.jpg" alt="cont 2" class="slider-img">
+                <img src="images/conten/cont3.jpg" alt="cont 3" class="slider-img">
+              </div>
+              <p>Participé del proyecto “Mundo Maker” creando contenido de electrónica y 
+              programación. </p>
+            </div>
+            <a href="#" class="ver-mas">Ver más</a>
+          </div>
+        </div>
+<!--===========================================================-->     
+<!--proyecto programación y robótica-->
+<!--===========================================================--> 
+        <div class="proyectos-todos">
+          <h3 class="toggle-titulo">Programación y robótica</h3>
+          <div class="proyecto-detalle">
+            <div class="contenido-flex">
+              
+    <!--Imagenes program y robot-->
+              <div class="slider-container">
+                <img src="images/progRob/prog1.jpg" alt="Robótica 1" class="slider-img active"> 
+                <img src="images/progRob/prog2.jpg" alt="Robótica 2" class="slider-img">
+                <img src="images/progRob/prog3.png" alt="Robótica 3" class="slider-img">
+              </div>
+              <p>Soy integrante de un equipo de divulgación tecnológica. El proyecto es destinado a chicos de 
+              zonas alejadas. </p>
+            </div>
+            <a href="#" class="ver-mas">Ver más</a>
+          </div>
+        </div>
+<!--===========================================================-->     
+<!--proyecto campus nomade-->
+<!--===========================================================--> 
+        <div class="proyectos-todos">
+          <h3 class="toggle-titulo">Nomade Camp</h3>
+          <div class="proyecto-detalle">
+            <div class="contenido-flex">
+              
+    <!--Imagenes campus-->
+              <div class="slider-container">
+                <img src="images/nomade/camp1.jpg" alt="Robótica 1" class="slider-img active"> 
+                <img src="images/nomade/camp2.jpg" alt="Robótica 2" class="slider-img">
+                <img src="images/nomade/camp3.jpg" alt="Robótica 3" class="slider-img">
+              </div>
+              <p>Nomade Camp es una experiencia educativa que tiene como objeto despertar la curiosidad,
+              la creatividad y el hacer en conjunto, acercando oportunidades educativas de calidad a contextos diversos</p>
+            </div>        
+            <a href="#" class="ver-mas">Ver más</a>
+          </div>
+        </div>
+
       </article>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
 
     <!-- Experiencia Laboral -->
     <section id="experiencia-laboral" class="seccion">
       <h2>Experiencia Laboral</h2>
       <article><h3>Product Owner</h3>
-      <p>Excelencia Digital 
-Agosto 2023 - 2025 
+      <p>
 En este rol, mi función es aplicar metodologías ágiles para asegurar un 
 flujo de trabajo eficiente. Guío al equipo de desarrollo utilizando prácticas 
 ágiles Scrum y colaboro con clientes para alinear objetivos.  </p>
       <h3>Desarrollador</h3>
-      <p>Excelencia Digital 
-Julio 2022 - agosto 2023 
+      <p> 
 Me desempeñé como desarrollador, realizando tareas de soporte y 
 mantenimiento de software, enfocado en la optimización de soluciones y 
 atención al cliente dentro de un equipo dinámico.</p>
       <h3>Help desk</h3>
-      <p>Excelencia Digital – Help desk 
-Julio 2021 - agosto 2022 
+      <p>
 Me desempeñé como agente de atención al cliente, realizando tareas 
 de soporte y mantenimiento de software, enfocado en la optimización de 
 soluciones y atención al cliente dentro de un equipo dinámico.  </p>
 </article>
     </section>
 
-    <!-- Contacto -->
-    <section id="contacto" class="seccion">
-      <h2>Contacto</h2>
-      <ul class="contactos-icons">
+    <!-- Redes -->
+    <section id="redes" class="seccion">
+      <h2>Redes</h2>
+      <ul class="redes-icons">
         <li><i class="fa-brands fa-google"></i></li>
         <li><i class="fa-brands fa-whatsapp"></i></li>
         <li><i class="fa-brands fa-instagram"></i></li>
@@ -115,19 +203,13 @@ soluciones y atención al cliente dentro de un equipo dinámico.  </p>
         <li><i class="fa-brands fa-facebook"></i></li>
         <li><i class="fa-brands fa-discord"></i></li>
       </ul>
-      <!-- <form>
-        <label for="nombre">Correo: </label>
-        <label type="email">jota@gmail.com</label>
-        
-        
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-      </form> -->
+   
     </section>
 
+   
+
     <!-- Referencias -->
-    <section id="referencias">
+    <section id="referencias" class="seccion">
       <h2>Referencias</h2>
       <blockquote>“...”</blockquote>
     </section>
@@ -142,7 +224,16 @@ soluciones y atención al cliente dentro de un equipo dinámico.  </p>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Jorge Enrique Lloret Naumchik</p>
-  </footer>
+    <p>&copy; <span id="year"></span> | Jorge Enrique Lloret Naumchik</p>
+    <p>Fecha: <span id="fechaActual">Cargando...</span></p>
+</footer>
+
+  <!--con esta linea integro el archivo script.js-->
+  <script src="script.js" defer></script> 
+
+  <button id="btnVolverArriba" title="Volver arriba">
+      ↑
+  </button>
 </body>
+
 </html>
